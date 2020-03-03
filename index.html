@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Test virus</title>
+</head>
+
+<body>
+    <div class="ui main container">
+        <div class="ui stackable menu">
+            <a class="item" href="index.html">Virus</a>
+            <a class="item" href="a_propos.html">A propos</a>
+          </div>
+
+
+<div class="bienvenu">
+
+<h1>Bienvenu sur mon simulateur de virus</h1>
+
+<p>Il suffit d'indiquer une taille pour le cube, ainsi que le point de départ de l'infection X Y Z.</p>
+
+</div>
+
+        <form method="POST" id="tailles"name="tailles">
+            <div class="ui input">
+                <input type="number" name="taille_cube" id="taille_cube" placeholder="Taille du cube" />
+            </div>
+            <div class="ui input">
+                <input type="number" name="x" id="x" placeholder="Position X" />
+            </div>
+            <div class="ui input">
+                <input type="number" name="y" id="y" placeholder="Position Y" />
+            </div>
+            <div class="ui input">
+                <input type="number" name="z" id="z" placeholder="Position Z" />
+            </div>
+
+        </form>
+        
+        <button type="submit" id="valider" class="ui button center">
+            Créer le cube
+        </button>
+
+
+        <div class="legende">
+        <h1>Légende :</h1>
+        <ul>
+            <li><span id="infecte">1 = infecté</span></li>
+            <li><span id="non_infecte">0 = non infecté</span></li>
+        </ul>
+        </div>
+          
+          
+        <div id="enc">
+
+
+
+        </div>
+        
+        
+        <div class="ui positive message">
+            <p id="nb_jour"></p>
+          </div>
+
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</body>
+
+</html>

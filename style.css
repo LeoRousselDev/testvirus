@@ -1,0 +1,79 @@
+body {
+    background-color: #ebedee;
+}
+
+.teste {
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.element_non_infecte {
+    font-size: 0.8em;
+    padding: 4px;
+    border-collapse: initial;
+    background-color: #27ae60;
+    box-shadow: tomato;
+    border: 1px solid black;
+
+}
+
+
+.element_infecte {
+    font-size: 0.8em;
+    padding: 4px;
+    border-collapse: initial;
+    background-color: #c0392b;
+    box-shadow: tomato;
+    border: 1px solid black;
+    
+
+}
+
+.jours {
+    text-align: center;
+}
+
+#nb_jours {
+    color: red;
+}
+
+#nb_jour {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.legende {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+#tailles {
+    text-align: center;
+}
+
+#valider {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bienvenu {
+    text-align: center;
+}
+
+
+
+#non_infecte {
+    color: green;
+
+}
+
+#infecte {
+    color: red;
+
+}
